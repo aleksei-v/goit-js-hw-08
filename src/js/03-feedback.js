@@ -36,7 +36,6 @@ const handleSubmit = (evt) => {
     evt.currentTarget.reset();
     localStorage.removeItem(STORAGE_KEYS);
 }
-
 refs.form.addEventListener('submit', handleSubmit);
 
 
